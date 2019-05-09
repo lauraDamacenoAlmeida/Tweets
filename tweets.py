@@ -8,7 +8,7 @@ try:
         access_token_secret = 'XXXXXXX'
     )
     pesquisa = TwitterSearchOrder()
-    pesquisa.set_keywords(['BTS'])
+    pesquisa.set_keywords(['chatbot'])
     pesquisa.set_language('pt')
 
     for tweet in tweets.search_tweets_iterable(pesquisa):
